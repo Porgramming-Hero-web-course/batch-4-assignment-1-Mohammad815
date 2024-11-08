@@ -2,7 +2,7 @@
 
  **Union Type in Typescript:**
 
- Union type in typescript allow us to define a Variable on parameter.union type can hold values of Multiple types.we create a union type use this  | operator between the types within parenthless.let's dive the example
+ Union type in typescript allow us to define a Variable on parameter.union type can hold values of Multiple types.we can create a union type use this  | operator between the types within parenthless.let's dive the example
 
  ```
  // uninon type Example
@@ -24,7 +24,7 @@
  
  **Intersection Type in Typescript:**
 
- intersection type merge the  mulple type into a single type.lets dive with an example
+ intersection type merge the  mulple type into a single type.different type object property  we can use by the  intersection. lets dive with an example
 
  ```
 interface ProductName{
