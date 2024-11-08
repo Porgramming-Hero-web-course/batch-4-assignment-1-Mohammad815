@@ -14,5 +14,5 @@ function countWordOccurrences(sentence:string,word:string):number{
 
 
 //const x = countWordOccurrences([1,3,5,5,4,8],5);
-const x = countWordOccurrences("TypeScript is great. I love TypeScript TypeSCript !", "typescript");
+const x = countWordOccurrences("I love TypeScript", "typescript");
 console.log(x)
