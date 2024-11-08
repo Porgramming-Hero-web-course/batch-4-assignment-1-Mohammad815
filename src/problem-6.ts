@@ -5,14 +5,14 @@ interface MyProfile{
     age: number,
     email: string
  }
-function updateProfile(profile:{name:string, age: number, email:string}, udateValue:{name:string}) {
+function updateProfile(profile:{name:string, age: number, email:string}, udateValue:{age:number}) {
     return {...profile,...udateValue }
 }
 const myProfile: MyProfile={
     name: "Alice",
-    age: 23,
+    age: 25,
     email: "forhadcse@gmail.com"
  }
 
-console.log(updateProfile(myProfile, { name: "Forhad" }));
+console.log(updateProfile(myProfile, { age: 26 }));
 
