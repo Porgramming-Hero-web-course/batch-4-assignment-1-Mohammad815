@@ -12,7 +12,6 @@ type Person = {
         if(!(key in obj)){
             return false;
         }
-    
     }
     return true
 }
