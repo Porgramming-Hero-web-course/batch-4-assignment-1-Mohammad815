@@ -9,7 +9,7 @@
 
  type DataType = number | string;
 
- function UnionTest(result:ataType){
+ function UnionTest(result:DataType){
 
     if(typeof result === 'number'){
         console.log("This is Number")
@@ -18,6 +18,33 @@
         console.log("This is String")
     }
  }
+
+ ```
+
  
+ **Intersection Type in Typescript:**
+
+ intersection type merge the  mulple type into a single type.lets dive with an example
+
+ ```
+interface ProductName{
+    brand: string;
+    model: string;
+}
+interface ProductInfo{
+    ram: number;
+    rom: number;
+    camera: string 
+}
+
+type ProductDetails = ProductName & ProductInfo;
+
+const waltonMobile : ProductDetails = {
+    brand: "Samsung",
+    model: '520',
+    ram: 6,
+    rom: 128,
+    camera: '50 MP'
+}
 
  ```
