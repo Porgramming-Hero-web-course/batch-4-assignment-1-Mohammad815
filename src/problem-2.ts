@@ -1,4 +1,4 @@
-// remove the duplicate number from the array
+// remove the duplicate number from the array and return new array
 
 function removeDuplicates(arr:number[]):number[]{
     let uniqe:number[] = [];
@@ -10,8 +10,7 @@ function removeDuplicates(arr:number[]):number[]{
     return uniqe;
 
 }
-
-const arr = [1, 2, 2,5,6,6, 3, 4, 4, 5]
+const arr = [1, 2, 2, 3, 4, 4, 5]
 const result  = removeDuplicates(arr)
 console.log(result)
 
