@@ -1,4 +1,5 @@
 // problem 4
+
 type Circle = {
     shape : 'circle',
     radius : number
@@ -10,12 +11,9 @@ type Rectangle  = {
 }
 type Shape = Circle | Rectangle;
 
-
-
-
 function calculateShapeArea(value:Shape){
     if(value.shape === 'circle'){
-        return Math.PI * value.radius * value.radius
+        return (Math.PI * value.radius * value.radius).toFixed(2)
     }
     if(value.shape === 'rectangle'){
         return value.height * value.width;
